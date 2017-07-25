@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_person"
+            android:icon="@drawable/geren"
+            android:title="个人中心"
+            />
+        <item
+            android:id="@+id/nav_order"
+            android:title="我的订单"
+            android:icon="@drawable/order" />
+        <item
+            android:id="@+id/nav_add"
+            android:title="我要借款"
+            android:icon="@drawable/borrow"
+            />
+        <item
+            android:id="@+id/nav_return"
+            android:title="我要还款"
+            android:icon="@drawable/ret"/>
+        <item
+            android:id="@+id/nav_set"
+            android:title="系统设置"
+            android:icon="@drawable/settings"/>
+    </group>
+</menu>
